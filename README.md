@@ -4,7 +4,40 @@ A game-inspired, retro-styled portfolio website with GSAP animations, Framer Mot
 
 ---
 
-## 📁 File Structure
+## �️ Technologies Used
+
+### Languages
+
+| Language | Usage |
+|----------|-------|
+| **HTML5** | Structure of the page (`portfolio.html`) |
+| **CSS3** | Styling with Tailwind CSS v4.1.13, custom properties, animations |
+| **JavaScript (ES6+)** | React application logic, bundled/minified |
+
+### Frameworks & Libraries
+
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| **React** | 18.x | UI component framework |
+| **Tailwind CSS** | v4.1.13 | Utility-first CSS framework |
+| **GSAP** | - | Advanced animations & scroll effects |
+| **Framer Motion** | - | React animation library |
+
+### Key Features
+
+- **CSS Custom Properties** - Theme colors (`--primary`, `--secondary`, etc.)
+- **CSS Layers** - `@layer base`, `@layer components`
+- **React Hooks** - `useState`, `useEffect`, `useRef`, `useImperativeHandle`, `forwardRef`
+- **Audio API** - HTML5 Audio for background music with fade effects
+- **Responsive Design** - Mobile-first with breakpoints
+
+### Build Type
+
+This is a **production-bundled** single-file application - all React, CSS, and JS are compiled and minified into one HTML file (built with Vite).
+
+---
+
+## �📁 File Structure
 
 ```
 portfolio.html    # Single-page application with embedded CSS & JS
